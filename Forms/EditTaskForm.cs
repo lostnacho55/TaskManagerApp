@@ -47,5 +47,10 @@ namespace TaskManagerApp.Forms
             MessageBox.Show("Task updated!");
             this.Close();
         }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
